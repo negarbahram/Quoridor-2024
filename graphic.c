@@ -35,37 +35,8 @@ int main() {
 
         //بهتره این کارهایی که کامنت کردم رو تو main انجام بدیم و صرفن چاپ یک برد رو بسپاریم به این فایل
         // اسمش رو هم از graphic به print تغییر بدیم و کارش فقط چاپ یک برد و دیوار ها و مهرهها باشه
-        /*
-        DrawCircleV(Player1, PlayerSize / 2, RED);
-        DrawCircleV(Player2, PlayerSize / 2, BLUE);
 
-        int sw = 0;
 
-        if (IsKeyDown(KEY_SPACE)) {
-            if (IsKeyDown(KEY_UP)) wallStartPoint.y -= PlayerSize, wallEndPoint.y -= PlayerSize;
-            if (IsKeyDown(KEY_DOWN)) s.y += PlayerSize, e.y += PlayerSize;
-            if (IsKeyDown(KEY_RIGHT)) s.x += PlayerSize, e.x += PlayerSize;
-            if (IsKeyDown(KEY_LEFT)) s.x -= PlayerSize, e.x -= PlayerSize;
-            if (IsKeyDown(KEY_SPACE)) {
-                if (s.x != e.x) s.x += PlayerSize, s.y += PlayerSize, e.x -= PlayerSize, e.y -= PlayerSize;
-                else s.x -= PlayerSize, s.y -= PlayerSize, e.x += PlayerSize, e.y += PlayerSize;
-            }
-        }
-        else {
-            if (! sw) {
-                if (IsKeyDown(KEY_UP)) Player1.y -= PlayerSize;
-                if (IsKeyDown(KEY_DOWN)) Player1.y += PlayerSize;
-                if (IsKeyDown(KEY_RIGHT)) Player1.x += PlayerSize;
-                if (IsKeyDown(KEY_LEFT)) Player1.x -= PlayerSize;
-           }
-            else {
-                if (IsKeyDown(KEY_UP)) Player2.y -= PlayerSize;
-                if (IsKeyDown(KEY_DOWN)) Player2.y += PlayerSize;
-                if (IsKeyDown(KEY_RIGHT)) Player2.x += PlayerSize;
-                if (IsKeyDown(KEY_LEFT)) Player2.x -= PlayerSize;
-            }
-        }
-        */
         BeginDrawing();
 
             ClearBackground(RAYWHITE);
@@ -83,15 +54,15 @@ int main() {
             }
 
             //چاپ بازیکن ها :
-            DrawCircleV(Player1, PlayerSize / 2, RED);
-            DrawCircleV(Player2, PlayerSize / 2, BLUE);
+            DrawCircleV(Player1, 5 * PlayerSize / 12, ColorAlpha(MAROON, 0.3));
+            DrawCircleV(Player2, 5 * PlayerSize / 12, ColorAlpha(DARKGREEN, 0.3));
 
             // برای چاپ  دیوارها از حلقه زیر استفاده میکنیم :
 /*        for (int i = 0; i < wallNoOfPlayer1 + wallNoOfPlayer2; i++)
                 DrawLineEx(wallStartPoint[i], wallEndPoint[i], 10, GRAY);
         */
         //فعلن فرض میکنیم یه دیوار داریم :
-            DrawLineEx(wallStartPoint[0], wallEndPoint[0], 10, GRAY);
+            DrawLineEx(wallStartPoint[0], wallEndPoint[0], 10, ColorAlpha(GRAY, 0.7));
         EndDrawing();
     }
 
