@@ -1,9 +1,9 @@
 [
 {
   "directory": "/Users/apple/Documents/uni_sem1/project/Quoridor2024/Quoridor-2024/cmake-build-debug",
-  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -I/Users/apple/Documents/uni_sem1/project/Quoridor2024/Quoridor-2024/cmake-build-debug/_deps/raylib-src/src -I/Users/apple/Documents/uni_sem1/project/Quoridor2024/Quoridor-2024/cmake-build-debug/_deps/raylib-src/src/external/glfw/include -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -fcolor-diagnostics -o CMakeFiles/example.dir/graphic.c.o -c /Users/apple/Documents/uni_sem1/project/Quoridor2024/Quoridor-2024/graphic.c",
-  "file": "/Users/apple/Documents/uni_sem1/project/Quoridor2024/Quoridor-2024/graphic.c",
-  "output": "CMakeFiles/example.dir/graphic.c.o"
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -I/Users/apple/Documents/uni_sem1/project/Quoridor2024/Quoridor-2024/cmake-build-debug/_deps/raylib-src/src -I/Users/apple/Documents/uni_sem1/project/Quoridor2024/Quoridor-2024/cmake-build-debug/_deps/raylib-src/src/external/glfw/include -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -fcolor-diagnostics -o CMakeFiles/example.dir/main.c.o -c /Users/apple/Documents/uni_sem1/project/Quoridor2024/Quoridor-2024/main.c",
+  "file": "/Users/apple/Documents/uni_sem1/project/Quoridor2024/Quoridor-2024/main.c",
+  "output": "CMakeFiles/example.dir/main.c.o"
 },
 {
   "directory": "/Users/apple/Documents/uni_sem1/project/Quoridor2024/Quoridor-2024/cmake-build-debug",
